@@ -14,6 +14,7 @@ function MemoComponent() {
   return (
     <div>
       <input type="text" value={name} onChange={e=> setName(e.target.value)}/>
+      
       <button onClick={increament}>Increament(+1)</button>
       <MemoUseCompomnent count={count}/>
     </div>

@@ -18,7 +18,7 @@ setTitle('');
   return (
     <div>
         <h1>TodoList.</h1> 
-        <input type="text" value={name} onChange={(e)=> setName(e.target.value)}></input>
+        {/* <input type="text" value={name} onChange={(e)=> setName(e.target.value)}></input> this is for custome hooks */}
       <form onSubmit={handleSubmit}>
         <input value={title} type='text' onChange={e=> setTitle(e.target.value)} placeholder='Enter title
         '/>
